@@ -1,3 +1,9 @@
+body {
+  background-image: url('Images/space1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
 h1 {
     text-align: center;
 }
@@ -12,6 +18,8 @@ div {
 
 #launchForm {
     background-color: #ECF0F1;
+    /* color: red; */
+    font-size: 20px;
     text-align: center;
     margin: auto;
     width: 25%;
@@ -55,7 +63,7 @@ div {
     text-align: center;
 }
 /*--------Drop-down-menu-button-----------------------------------------------*/
-.dropbtn {
+/* .dropbtn {
     background-color: #419f6a;
     color: white;
     border-radius: 8px;
@@ -99,5 +107,5 @@ div {
   
   .dropdown:hover .dropbtn {
     background-color: #3e8e41;
-  }
+  } */
 /*----------------------------------------------------------------------------*/
